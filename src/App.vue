@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     search() {
-      console.log(this.searchTerm);
+      // console.log(this.searchTerm);
       this.$router.push({ name: "search", params: { query: this.searchTerm } });
     },
   },

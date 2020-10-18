@@ -79,12 +79,12 @@
 <script>
 import productService from "../services/ProductService.js";
 export default {
-  watch: {
-    $route(to, from) {
-      this.filter.searchTerm = this.$route.params.query;
+  // watch: {
+  //   $route(to, from) {
+  //     this.filter.searchTerm = this.$route.params.query;
      
-    }
-  },
+  //   }
+  // },
   data() {
     return {
       searchTerm: "",
