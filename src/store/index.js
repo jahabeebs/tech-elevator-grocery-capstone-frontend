@@ -35,14 +35,14 @@ export default new Vuex.Store({
   },
 
     UPDATE_ITEM_QTY(state, product) {
-      console.log(state.cart);
+      //console.log(state.cart);
       state.cart.forEach((item)=> {
       if (product.id == item.id) {
         item.quantity = product.quantity
         
       }
     })
-    console.log(state.cart);
+    //console.log(state.cart);
   },
 
     CART_TOTAL(state) {
