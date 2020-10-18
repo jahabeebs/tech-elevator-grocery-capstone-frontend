@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const http = axios.create({
-    baseURL: "http://localhost:8080"
+    baseURL: "https://te-grocery-capstone-backend.herokuapp.com/"
 });
 
 export default {
