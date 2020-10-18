@@ -240,7 +240,7 @@ export default {
         this.msg["zip"] =
           "Sorry, we only deliver to Tech Elevator metro areas!";
       }
-      console.log(zip);
+      // console.log(zip);
     },
     received(){
       let output = "Transaction sucessfull";

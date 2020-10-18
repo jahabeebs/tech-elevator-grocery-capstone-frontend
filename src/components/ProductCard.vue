@@ -47,7 +47,7 @@ export default {
       if (this.product.sale) {
         this.product.price = this.product.price * 0.9;
       }
-      console.log(this.product.price);
+      // console.log(this.product.price);
       return this.product.price;
     },
   },
