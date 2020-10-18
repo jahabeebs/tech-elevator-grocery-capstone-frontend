@@ -74,12 +74,6 @@
 <script>
 import productService from "../services/ProductService.js";
 export default {
-  watch: {
-    $route(to, from) {
-      this.reload();
-  
-    }
-  },
   computed: {
     returnCategoryName() {
       if (this.$route.params.categoryId == 1) {
